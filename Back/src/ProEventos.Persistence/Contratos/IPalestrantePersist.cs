@@ -7,9 +7,9 @@ namespace ProEventos.Persistence.Contratos
     public interface IPalestrantePersist
         {
         //PALESTRANTES
-        Task<Palestrante[]> GetAllPalestrantesByNomeAsync(string Nome, bool includeEventos = false);
+        Task<Palestrante[]> GetAllPalestrantesByNomeAsync(string nome, bool includeEventos = false);
         Task<Palestrante[]> GetAllPalestrantesAsync( bool includeEventos = false);
-        Task<Palestrante> GetAllPalestranteByIdAsync(int PalestranteId, bool includeEventos = false);
+        Task<Palestrante> GetAllPalestranteByIdAsync(int palestranteId, bool includeEventos = false);
 
     }
 }
