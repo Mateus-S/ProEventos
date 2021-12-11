@@ -2,6 +2,17 @@
 <app-nav></app-nav>
 <div class="container">
   <app-eventos></app-eventos>
+  <app-contatos></app-contatos>
+  <app-deshboard></app-deshboard>
+  <app-perfil></app-perfil>
+  <app-palestrantes></app-palestrantes>
   <router-outlet></router-outlet>
 </div>
-
+<ngx-spinner
+  bdColor="rgba(51,51,51,0.8)"
+  size="medium"
+  color="#fff"
+  type="ball-scale-multiple"
+>
+  <p style="font-size: 20px; color: white">Loading...</p>
+</ngx-spinner>
