@@ -16,7 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EventosComponent } from 'src/app/components/eventos/eventos.component';
 import { PalestrantesComponent } from './components/palestrantes/palestrantes.component';
-import { NavComponent } from './nav/nav.component';
+import { NavComponent } from './shared/titulo/nav/nav.component';
 
 import { EventoService } from 'src/services/evento.service';
 import { ContatosComponent } from './components/contatos/contatos.component';
